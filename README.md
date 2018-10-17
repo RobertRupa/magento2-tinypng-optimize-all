@@ -2,7 +2,7 @@ This CLI command uses Tinypng Magento 2 module with valid API key to compress jp
 
 Install.
 
-instal and configure Tintypng Magento 2 module(https://marketplace.magento.com/tinify-magento2.html)
-Copy or clone files to app/code
-run: php bin/magento setup:upgrade
-run: php bin/magento konatsu:tinypng:optimize-all
+1. Instal and configure Tintypng Magento 2 module(https://marketplace.magento.com/tinify-magento2.html)
+2. Copy, clone files to app/code or use composer require robertrupa/tinypng-optimize-all
+3. run: php bin/magento setup:upgrade
+4. run: php bin/magento konatsu:tinypng:optimize-all
