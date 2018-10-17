@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Tinypng Optimize All
+ *
+ * @package Konatsu_TinypngOptimizeAll
+ * @author Robert Rupa <robert@konatsu.pl>
+ * @license OSL-3.0, AFL-3.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="konatsu:tinypng:optimize-all" xsi:type="object">Konatsu\TinypngOptimizeAll\Console\Command\TinypngOptimizeAll</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

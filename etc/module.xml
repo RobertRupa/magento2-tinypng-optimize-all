@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Regenerate Url rewrites
+ *
+ * @package Konatsu_RegenerateUrlRewrites
+ * @author Robert Rupa <robert@konatsu.pl>
+ * @license OSL-3.0, AFL-3.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Konatsu_TinypngOptimizeAll" setup_version="1.0.0">
+    </module>
+</config>
